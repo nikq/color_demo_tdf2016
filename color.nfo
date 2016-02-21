@@ -1,0 +1,26 @@
+
+============================
+ nikq::club presents
+                     col.or.
+============================
+
+1. run color_demo.exe
+
+ options:
+    -windowed
+    -resoX     resolution x and set y to 9/16 of x
+    -resoY     resolution y
+    -RAYSIZE   raytracing buffer size          default 128
+    -ACTIVEBLOCKS raytracing batch size        default  16
+    -MAXPASS   raytracing maximum accumulation default   8
+    -MAXPATH   raytracing maximum depth        default   8
+
+code,sound,graphix
+  Hajime UCHIMURA // @nikq
+
+Submitted to the "PC Demo" category of the Toyko Demoscene 2016 competition (tokyodemofest.jp/2016).
+
+pathtracing based on Tantalum, ported to C++ by @nikq.
+  https://benedikt-bitterli.me/tantalum/
+
+so this demo also is under zlib/png license.
