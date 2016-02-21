@@ -1,0 +1,25 @@
+
+#version 330
+
+//COMPOSE
+
+uniform sampler2D Frame;
+uniform sampler2D BlurFrame;
+uniform float Glare;
+uniform float Exposure;
+uniform float Blend;
+uniform float Whiteout;
+in  vec2 vTexCoord;
+layout(location=0) out vec4 fragColor;
+
+vec3 lin2mon( vec3 rgb )
+{
+    return pow( clamp(rgb * Exposure,vec3(0),vec3(1)), vec3(1/2.2) );
+}
+
+void main() 
+{
+    vec3 color = texture2D( Frame, vTexCoord ).rgb;
+    vec3 blur  = texture2D( BlurFrame, vTexCoord ).rgb;
+    fragColor  = mix( vec4( lin2mon( (color + blur * Glare) ), Blend ), vec4(1), Whiteout );
+}

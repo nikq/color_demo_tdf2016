@@ -1,0 +1,13 @@
+
+#version 330
+
+//PASS
+uniform sampler2D Frame;
+in vec2 vTexCoord;
+
+layout(location=0) out vec4 fragColor;
+
+void main()
+{
+    fragColor = vec4(texture2D(Frame, vTexCoord).rgb, 1.0);
+}

@@ -1,0 +1,48 @@
+
+#version 330
+
+#define PI      3.1415926536
+
+// GAUSS BLUR.
+
+uniform sampler2D Frame;
+uniform vec2      FrameSize;
+uniform float     Radius;
+uniform vec2      Dir;
+uniform float     Threshold;
+
+in vec2 vTexCoord;
+layout(location=0) out vec4 fragColor;
+/*
+float yokouchi_weight( float x, float radius_factor )
+{
+    //float radius_factor = 1/(1+Radius*Radius*Radius);
+    return (1 / (1+x*x*x) - radius_factor) / (1 - radius_factor);
+}
+    */
+float gauss_weight( float x, float sigma )
+{
+    return exp( x * x * -0.5 / sigma );
+}
+
+void main()
+{
+    vec2 iSize = 1.0 / FrameSize;
+    float sigma = Radius / 3.;
+    int steps = int(Radius);
+    float t = 1/(steps*2+1);
+    vec4 threshold = vec4(Threshold);
+    vec4 sum = max(texture2D(Frame, vTexCoord)-threshold,vec4(0));
+    float w = 1;
+    vec2 dir = vec2( Dir.x / FrameSize.x, Dir.y / FrameSize.y );
+    for( int i=1;i<=steps;i++) {
+        float d = float(i);
+        float v = gauss_weight( d, sigma );
+        vec2 uv1 = vec2( vTexCoord.x + dir.x * d, vTexCoord.y + dir.y * d);
+        vec2 uv2 = vec2( vTexCoord.x - dir.x * d, vTexCoord.y - dir.y * d);
+        sum += max(texture2D( Frame, uv1 )-threshold,vec4(0)) * v;
+        sum += max(texture2D( Frame, uv2 )-threshold,vec4(0)) * v;
+        w = w + v * 2.;
+    }
+    fragColor = sum / w;
+}

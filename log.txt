@@ -1,0 +1,104 @@
+shaders/scene_0.txt+shaders/trace_vs.txt
+
+shaders/scene_1.txt+shaders/trace_vs.txt
+
+shaders/scene_2.txt+shaders/trace_vs.txt
+
+shaders/scene_3.txt+shaders/trace_vs.txt
+
+shaders/scene_4.txt+shaders/trace_vs.txt
+
+shaders/scene_5.txt+shaders/trace_vs.txt
+
+shaders/scene_6.txt+shaders/trace_vs.txt
+
+shaders/scene_6.txt+shaders/trace_vs.txt
+
+shaders/scene_0.txt
+shaders/trace_vs.txt
+shaders/scene_1.txt
+shaders/trace_vs.txt
+shaders/scene_2.txt
+shaders/trace_vs.txt
+shaders/scene_3.txt
+shaders/trace_vs.txt
+shaders/scene_4.txt
+shaders/trace_vs.txt
+shaders/scene_5.txt
+shaders/trace_vs.txt
+shaders/scene_6.txt
+shaders/trace_vs.txt
+shaders/scene_6.txt
+shaders/trace_vs.txt
+texInit 2048x1024x4 0 1 1 00000276275CF040
+
+texInit 2048x1024x4 0 1 1 0000027627DE5040
+
+texInit 2048x1024x4 0 1 1 0000027628DEF040
+
+texInit 2048x1024x4 0 1 1 000002762960C040
+
+texInit 2048x1024x4 0 1 1 0000027629E1E040
+
+shaders/texquad_fs.txt
+shaders/texquad_vs.txt
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Trying to allocate VBO (1) with size:, 80 bytes to location: VID
+
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Trying to allocate VBO (2) with size:, 80 bytes to location: VID
+
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Buffer object 2 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+
+shaders/init_fs.txt
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Trying to allocate VBO (3) with size:, 80 bytes to location: VID
+
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Buffer object 3 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+
+shaders/init_vs.txt
+shaders/trace_fs.txt
+shaders/trace_vs.txt
+shaders/ray_fs.txt
+shaders/ray_vs.txt
+shaders/compose_fs.txt
+shaders/compose_vs.txt
+shaders/pass_fs.txt
+shaders/compose_vs.txt
+shaders/blur_fs.txt
+shaders/compose_vs.txt
+texInit 256x1x4 1 1 1 00007FF7E36BD2E0
+
+texInit 256x1x1 1 0 1 0000000000000000
+
+texInit 1024x1x1 1 0 1 0000000000000000
+
+texInit 256x1x1 1 0 1 0000000000000000
+
+texInit 128x128x4 1 0 1 00000276269009D0
+
+texInit 128x128x4 1 0 1 00000276269B0FF0
+
+texInit 128x128x4 1 0 1 00000276269F1000
+
+texInit 128x128x4 1 0 1 0000027626AB1030
+
+texInit 128x128x4 1 0 1 0000027626AF1040
+
+texInit 128x128x4 1 0 1 0000027626B31050
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Trying to allocate VBO (4) with size:, 192.00 Kb to location: VID
+
+
+GLERR OpenGL:Other[Notification](131185): Buffer detailed info: Buffer object 4 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+
+texInit 960x540x4 1 1 1 0000000000000000
+
+texInit 960x540x4 1 1 1 0000000000000000
+
+texInit 960x540x4 1 1 1 0000000000000000
+
+texInit 960x540x4 1 1 1 0000000000000000
+

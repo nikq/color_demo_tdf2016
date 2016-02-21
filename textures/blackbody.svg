@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="256"
+   viewBox="0 0 512 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="blackbody.svg"
+   inkscape:export-filename="D:\code\glsl1\glsl1\textures\blackbody.png"
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="781.45313"
+     inkscape:cy="458.20738"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3336"
+       spacingx="32"
+       spacingy="32" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36216)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:-5.25px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="166.91478"
+       y="861.6972"
+       id="text3380"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="161.66478"
+         y="861.6972"
+         id="tspan3384">lights</tspan><tspan
+         sodipodi:role="line"
+         x="170.47728"
+         y="911.6972"
+         id="tspan3390">made </tspan><tspan
+         sodipodi:role="line"
+         x="161.66478"
+         y="961.6972"
+         id="tspan3412">of</tspan><tspan
+         sodipodi:role="line"
+         x="161.66478"
+         y="1011.6972"
+         id="tspan3392">physics.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:80px;line-height:80.00000119%;font-family:'M+ 1c';-inkscape-font-specification:'M+ 1c Ultra-Bold';letter-spacing:-4.5899992px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="180.56346"
+       y="887.96118"
+       id="text3394"
+       sodipodi:linespacing="80.000001%"><tspan
+         sodipodi:role="line"
+         id="tspan3396"
+         x="180.56346"
+         y="887.96118">PLANCK</tspan><tspan
+         sodipodi:role="line"
+         x="180.56346"
+         y="951.96118"
+         id="tspan3400">BLACK</tspan><tspan
+         sodipodi:role="line"
+         x="180.56346"
+         y="1015.9612"
+         id="tspan3406">BODY</tspan></text>
+  </g>
+</svg>

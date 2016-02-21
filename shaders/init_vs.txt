@@ -1,0 +1,15 @@
+#version 330
+
+#define PI      3.1415926536
+#define PI_HALF 1.5707963268
+
+in vec3 Position;
+in vec2 TexCoord;
+
+out vec2 vTexCoord;
+
+void main() 
+{
+    gl_Position = vec4(Position, 1.0);
+    vTexCoord = TexCoord;
+}
